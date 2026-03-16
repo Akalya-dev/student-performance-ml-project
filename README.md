@@ -1,39 +1,35 @@
-# Student Performance Prediction (Machine Learning Project)
+# Student Performance Prediction (Machine Learning)
 
-## Project Overview
 This project predicts a student's final grade (G3) using Machine Learning.
 
-The model analyzes different academic and personal factors such as:
-- Study time
-- Absences
-- Previous grades (G1, G2)
-- Family education
-- Travel time
-
-## Technologies Used
+## Tech Stack
 - Python
 - Pandas
-- Matplotlib
-- Seaborn
 - Scikit-learn
-- Joblib
-
-## Machine Learning Model
-The project uses **Linear Regression** to predict the final grade.
+- Streamlit
 
 ## Project Workflow
-1. Load dataset
-2. Perform data analysis
-3. Visualize data
-4. Train machine learning model
-5. Evaluate model performance
-6. Save trained model
+1. Data preprocessing
+2. Exploratory Data Analysis
+3. Model training using Linear Regression
+4. Model saving with Joblib
+5. Web app using Streamlit
 
-## Output
-The program predicts the **final student grade (G3)** based on input values.
+## Features
+- Predict final student grade
+- Simple interactive UI
+- Machine learning model integration
 
-## Dataset
-Student Performance Dataset
+## App Preview
 
-## Author
-Akalya
+![App Screenshot](images/app.png)
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the app:
+
+streamlit run application.py
